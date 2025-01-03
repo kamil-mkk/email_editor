@@ -14,7 +14,8 @@ The test is written using Cypress with javascript. The automation approach invol
 
 Follow the below steps for running the automated test:
 
-* Clone the repository: git clone https://github.com/kamil-mkk/email-editor.git
+* Clone the repository: git clone https://github.com/kamil-mkk/email_editor.git
+* Install Node.js - v14 or above
 * Install the dependencies: npm install
 * Install the required Cypress plugins for capturing iframe: npm install --save-dev cypress-iframe
 * Open the Email Editor application at: https://react-email-editor-demo.netlify.app/
