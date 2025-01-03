@@ -22,15 +22,15 @@ Follow the below steps for running the automated test:
 
 ## Project Structure
 
-### cypress-email-editor: Root folder of the project under which we have cypress as it sub-folder
-#### package.json: Project configuration file, listing dependencies and scripts
-#### cypress.config.js: Configuration file for Cypress, defining settings for end-to-end testing
-##### cypress/integration/emailEditorTests.cy.js: Main test file containing E2E tests for the Email Editor application
-##### cypress/support/variables.js: File containing variables used in the tests
-##### cypress/support/consoleLogVerifier.js: Function defined to verify console logs
-##### cypress/support/commands.js: Defines custom Cypress commands, including getIframeBody for handling iframes
-##### cypress/fixtures/colorCodes.json: JSON file containing color codes used in the tests
-###### cypress/support/pageObjects/emailEditorPage.js: Page object model definitions for the Email Editor application
+* cypress-email-editor: Root folder of the project under which we have cypress as it sub-folder
+* package.json: Project configuration file, listing dependencies and scripts
+* cypress.config.js: Configuration file for Cypress, defining settings for end-to-end testing
+* cypress/integration/emailEditorTests.cy.js: Main test file containing E2E tests for the Email Editor application
+* cypress/support/variables.js: File containing variables used in the tests
+* cypress/support/consoleLogVerifier.js: Function defined to verify console logs
+* cypress/support/commands.js: Defines custom Cypress commands, including getIframeBody for handling iframes
+* cypress/fixtures/colorCodes.json: JSON file containing color codes used in the tests
+* cypress/support/pageObjects/emailEditorPage.js: Page object model definitions for the Email Editor application
 
 ## Test Scenarios
 
