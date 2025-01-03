@@ -43,6 +43,10 @@ The tests cover the following scenarios:
 * Clicked on the Export HTML button
 * Verified the background-color changed in the dev console and printed in cypress command logs
 
+## Video Recording link of Test Run
+
+https://www.loom.com/share/10a8352c0fa34f3484811cb44fcab280?sid=56128d85-873b-453c-bb77-1ffcfe823373
+
 ## Future Work
 
 * Add more test scenarios to cover additional user flows through the app
